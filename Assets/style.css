@@ -3,3 +3,11 @@ header{
     height: auto;
     text-align: center;
 }
+h6{
+    font-size: small;
+}
+.days{
+    /* display: flex;
+    flex-direction: column; */
+    background-color: rgb(50, 50, 92);
+}
