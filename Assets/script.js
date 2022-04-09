@@ -8,6 +8,7 @@ let nextDaySection = $(".futureWeather");
 let submitBtn = $(".btn");
 let cityBtns = $(".citybtns")
 let mapIcon= new Map();
+let flag=true;
 
 
 getApiWeather(requestUrlWeather);
@@ -22,6 +23,7 @@ function getApiWeather(requestUrlWeather) {
             else {
                 alert("Please enter a vali city name");
                 city = ""
+                flag=false;
                 return;
             }
             return response.json();
@@ -42,6 +44,7 @@ function getApiForcast(requestUrlForcast) {
             }
             else {
                 city = ""
+                flag=false;
                 return;
             }
             return response.json();
@@ -109,7 +112,7 @@ submitBtn.on("click", function (event) {
     event.preventDefault();
 
     makeQuery($("#cityName").val())
-    if (city != "") {
+    if (flag) {
 
         addCitybutton(city);
     }

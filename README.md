@@ -53,6 +53,6 @@ The following image shows the web application's appearance and functionality:
 ![The Password Generator application displays a red button to "Generate Password".](./Assets/image/3.png)
 
 
-*  GitHub repository name: 
-*  The URL to the website is: 
-*  The URL of the GitHub repository : 
+*  GitHub repository name: Weather-Dashboard-April-12
+*  The URL to the website is: https://saghar-b.github.io/Weather-Dashboard-April-12/
+*  The URL of the GitHub repository : https://github.com/saghar-b/Weather-Dashboard-April-12
