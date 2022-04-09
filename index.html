@@ -14,7 +14,6 @@
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
     </script>
-
 </head>
 
 <body>
@@ -35,14 +34,17 @@
             <form class="vh-40 bg-white rounded-lg p-3 ">
               <div class="form-group">
 
-                <input type="text" id="cityName" class="form-control" placeholder="City name" />
+                <input type="text" id="cityName" class="form-control" placeholder="City name" required/>
               </div>
 
               <button class="btn btn-block btn-success">Search</button>
             </form>
-            <div class="vh-40 bg-white rounded-lg p-3 ">
-
-
+          
+              
+            <div class="citybtns" >
+              
+               
+          
             </div>
           </div>
         </section>
@@ -50,9 +52,10 @@
 
       <div class="col-12 col-lg-9">
         <section class="countainer my-3">
-
+<!-- current weather information -->
           <div id="currentWeather" class=" bg-white text-black  px-2 border">
             <h5 id="cityname" class=" my-3"></h5>
+            <img id="icon" src="" alt="" srcset="">
             <h6 id="temp" class="my-3">
               </h5>
               <h6 id="wind" class="my-3">
@@ -65,10 +68,11 @@
           </div>
 
           <h4>5-days of forcast</h4>
+          <!-- future weather information -->
           <section class="futureWeather row">
           </section>
-          
-        
+
+
         </section>
       </div>
 

@@ -11,3 +11,15 @@ h6{
     flex-direction: column; */
     background-color: rgb(50, 50, 92);
 }
+button{
+    width: 90%;
+    background-color: gray;
+    /* justify-content:flex-end; */
+    text-align: center;
+    
+
+}
+img{
+    width: 40px;
+    height: 40px;
+}

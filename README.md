@@ -1,5 +1,5 @@
 # 06 Server-Side APIs: Weather Dashboard
-
+## Saghar Behinaein
 ## Your Task
 
 Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
@@ -34,67 +34,25 @@ THEN I am again presented with current and future conditions for that city
 
 The following image shows the web application's appearance and functionality:
 
-![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.](./Assets/06-server-side-apis-homework-demo.png)
+![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.](./Assets/image/06-server-side-apis-homework-demo.png)
 
-## Grading Requirements
 
-> **Note**: If a homework assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+## My Work
+* When the user opens the webpage, Seattle will be defult for the loading page and shows current and next five days of the weather condition
 
-This homework is graded based on the following criteria: 
 
-### Technical Acceptance Criteria: 40%
+![The Password Generator application displays a red button to "Generate Password".](./Assets/image/1.png)
 
-* Satisfies all of the above acceptance criteria plus the following:
+* Then when search a city , it presented with current and future conditions for that city and that city is added to the search history  as a button which user can click on it for future access
+* Then it presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed for the current day
+* also it shows future weather conditions for that city
+  * it presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
+  * WHEN user click on a city in the search history, then user again presented with current and future conditions for that city
 
-    * Uses the OpenWeather API to retrieve weather data.
 
-    * Uses `localStorage` to store persistent data.
+![The Password Generator application displays a red button to "Generate Password".](./Assets/image/3.png)
 
-### Deployment: 32%
 
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project.
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+*  GitHub repository name: 
+*  The URL to the website is: 
+*  The URL of the GitHub repository : 
